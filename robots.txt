@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://x7k-lowe.github.io/earnings-site/sitemap.xml
