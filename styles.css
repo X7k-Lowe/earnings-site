@@ -470,3 +470,31 @@ h3 {
 .product-link[aria-disabled="true"] {
   cursor: not-allowed;
 }
+
+
+.product-image {
+  display: block;
+  width: 100%;
+  aspect-ratio: 1200 / 630;
+  object-fit: cover;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  margin-bottom: 18px;
+}
+
+.sample {
+  background: #ffffff;
+}
+
+.sample-layout {
+  display: grid;
+  grid-template-columns: minmax(0, 0.9fr) minmax(300px, 430px);
+  gap: clamp(28px, 6vw, 72px);
+  align-items: start;
+}
+
+@media (max-width: 820px) {
+  .sample-layout {
+    grid-template-columns: 1fr;
+  }
+}
