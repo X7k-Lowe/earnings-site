@@ -1,0 +1,98 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="AIで作ったWeb、アプリ、販売ZIPを公開する前に、秘密情報、有料ファイル、危険操作、説明不足を点検する無料チェックリスト。">
+    <meta property="og:title" content="AI公開前チェックリスト">
+    <meta property="og:description" content="AI生成物を公開する前の事故を減らす無料チェックリスト。">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="https://x7k-lowe.github.io/earnings-site/assets/products/ai-safety-pack.png">
+    <meta name="twitter:card" content="summary_large_image">
+    <link rel="canonical" href="https://x7k-lowe.github.io/earnings-site/tools/ai-release-checklist.html">
+    <title>AI公開前チェックリスト</title>
+    <link rel="stylesheet" href="../styles.css">
+  </head>
+  <body class="tool-page">
+    <header class="site-header product-header">
+      <a class="brand" href="../index.html" aria-label="自動販売スターターキット トップへ">
+        <span class="brand-mark">A</span>
+        <span>自動販売スターターキット</span>
+      </a>
+      <nav class="nav" aria-label="主要ナビゲーション">
+        <a href="../index.html#plans">商品一覧</a>
+        <a href="../products/ai-safety-pack.html">事故防止パック</a>
+        <a href="../index.html#buy">購入</a>
+      </nav>
+    </header>
+
+    <main class="tool-main">
+      <section class="tool-hero">
+        <div>
+          <p class="eyebrow dark">無料ツール</p>
+          <h1>AI公開前チェックリスト</h1>
+          <p class="lead product-lead">AIで作ったWeb、アプリ、販売ZIPを公開する前に、秘密情報・有料ファイル・危険操作・説明不足を点検します。</p>
+        </div>
+        <aside class="buy-panel tool-summary" data-ai-checklist-summary>
+          <p class="plan-name">完了状況</p>
+          <output class="checklist-score" data-ai-checklist-score>0 / 20</output>
+          <div class="progress-track" aria-hidden="true"><span data-ai-checklist-bar></span></div>
+          <p class="form-note" data-ai-checklist-message>未確認の項目があります。</p>
+          <button class="button primary full" type="button" data-copy-checklist>結果をコピー</button>
+          <button class="button tertiary full" type="button" data-reset-checklist>リセット</button>
+          <a class="button tertiary full" href="../products/ai-safety-pack.html">事故防止パックを見る</a>
+        </aside>
+      </section>
+
+      <section class="section checklist-section">
+        <form class="section-inner checklist-form" data-ai-checklist>
+          <fieldset>
+            <legend>秘密情報</legend>
+            <label><input type="checkbox" name="secret-env"> `.env`、秘密鍵、APIキーらしき文字列を検索した</label>
+            <label><input type="checkbox" name="secret-token"> Cookie、Authorization、アクセストークンを含めていない</label>
+            <label><input type="checkbox" name="secret-screenshot"> スクリーンショットに個人情報や管理画面が映っていない</label>
+            <label><input type="checkbox" name="secret-log"> ログやREADMEに不要なローカルパス、ユーザー名を出していない</label>
+          </fieldset>
+
+          <fieldset>
+            <legend>有料ファイルと公開範囲</legend>
+            <label><input type="checkbox" name="paid-zip"> 有料ZIPを無料公開フォルダへ入れていない</label>
+            <label><input type="checkbox" name="paid-sample"> 無料サンプルと有料版の範囲を分けている</label>
+            <label><input type="checkbox" name="paid-readme"> ZIP内にREADME、使い方、免責、更新履歴がある</label>
+            <label><input type="checkbox" name="paid-license"> 商用利用、再配布禁止、非対象者を書いている</label>
+          </fieldset>
+
+          <fieldset>
+            <legend>危険操作</legend>
+            <label><input type="checkbox" name="danger-rm"> `rm -rf`、`git push -f`、`git reset --hard` を確認なしで使っていない</label>
+            <label><input type="checkbox" name="danger-backup"> 公開前にGitコミットまたはバックアップがある</label>
+            <label><input type="checkbox" name="danger-delete"> DB削除、ストレージ削除、課金API実行が含まれていない</label>
+            <label><input type="checkbox" name="danger-hook"> pre-commitや公開前チェックで最低限の検索をしている</label>
+          </fieldset>
+
+          <fieldset>
+            <legend>AI生成説明</legend>
+            <label><input type="checkbox" name="claim-fact"> AIが書いた機能説明を実物と照合した</label>
+            <label><input type="checkbox" name="claim-price"> 外部サービスの料金、仕様、規約は最新確認が必要な情報として扱った</label>
+            <label><input type="checkbox" name="claim-guarantee"> 売上保証、完全な安全保証、専門助言と誤解される表現を避けた</label>
+            <label><input type="checkbox" name="claim-rights"> 著作権、商標、第三者素材の扱いを確認した</label>
+          </fieldset>
+
+          <fieldset>
+            <legend>公開後</legend>
+            <label><input type="checkbox" name="after-url"> 公開URL、ダウンロードURL、商品画像URLを実際に開いた</label>
+            <label><input type="checkbox" name="after-link"> 購入ボタン、無料ダウンロード、関連商品のリンクを確認した</label>
+            <label><input type="checkbox" name="after-record"> 変更内容、検証コマンド、公開日時をログに残した</label>
+            <label><input type="checkbox" name="after-next"> 売れない場合の次の修正項目を1つ決めた</label>
+          </fieldset>
+        </form>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <p>AI公開前チェックリスト</p>
+      <a href="../index.html">トップへ戻る</a>
+    </footer>
+    <script src="../scripts/main.js"></script>
+  </body>
+</html>
