@@ -1,0 +1,24 @@
+# 自動販売スターターキット
+
+AI生成物を、販売ページ、価格、説明文、公開前チェック、ダウンロードZIPまで整えるための公開サイトです。個別営業や個別相談を前提にしません。
+
+## 重要ページ
+- トップ: https://x7k-lowe.github.io/earnings-site/
+- AI公開前チェックリスト: https://x7k-lowe.github.io/earnings-site/tools/ai-release-checklist.html
+- 無料記事一覧: https://x7k-lowe.github.io/earnings-site/articles/
+- RSS: https://x7k-lowe.github.io/earnings-site/feed.xml
+
+## 商品ページ
+- 自動販売スターターキット 無料サンプル (0円): https://x7k-lowe.github.io/earnings-site/products/free-sample.html
+- 収益管理CSVパック (980円): https://x7k-lowe.github.io/earnings-site/products/revenue-csv-pack.html
+- 商品ページ文章テンプレート100 (1980円): https://x7k-lowe.github.io/earnings-site/products/listing-copy-pack.html
+- 自動販売スターターキット (4980円): https://x7k-lowe.github.io/earnings-site/products/auto-sales-kit.html
+- AI個人開発 公開事故防止スターターパック (1980円): https://x7k-lowe.github.io/earnings-site/products/ai-safety-pack.html
+
+## 無料記事
+- 営業しないでデジタル商品を売るために、最初に作るべき5つのファイル: https://x7k-lowe.github.io/earnings-site/articles/eigyo-shinai-digital-product.html
+- BOOTHの商品説明で最低限書くべき7項目: https://x7k-lowe.github.io/earnings-site/articles/booth-listing-template.html
+- 月5万円をデジタル商品で作るなら、価格より先に販売本数を見る: https://x7k-lowe.github.io/earnings-site/articles/price-goal-calculation.html
+- 無料サンプルは「全部見せない」より「不安を減らす」ために置く: https://x7k-lowe.github.io/earnings-site/articles/free-sample-strategy.html
+- デジタル商品は公開後30日で「商品名・画像・無料導線」を直す: https://x7k-lowe.github.io/earnings-site/articles/after-launch-30days.html
+- AIで作ったものを公開する前に見る20項目: https://x7k-lowe.github.io/earnings-site/articles/ai-release-checklist.html
